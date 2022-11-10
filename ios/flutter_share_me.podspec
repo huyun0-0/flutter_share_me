@@ -14,6 +14,8 @@ Flutter Plugin for sharing contents to social media.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
+  # FBSDKCoreKit为此配置
+  s.static_framework = true
   s.dependency 'Flutter'
   s.dependency 'FBSDKShareKit', '~> 15.0.0'
   s.dependency 'FBSDKCoreKit', '~> 15.0.0'
