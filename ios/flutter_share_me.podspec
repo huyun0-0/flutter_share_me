@@ -17,9 +17,9 @@ Flutter Plugin for sharing contents to social media.
   # FBSDKCoreKit为此配置
   s.static_framework = true
   s.dependency 'Flutter'
-  s.dependency 'FBSDKShareKit', '~> 15.0.0'
-  s.dependency 'FBSDKCoreKit', '~> 15.0.0'
-  s.dependency 'FBSDKLoginKit', '~> 15.0.0'
+  s.dependency 'FBSDKShareKit', '~> 16.0'
+  s.dependency 'FBSDKCoreKit', '~> 16.0'
+  s.dependency 'FBSDKLoginKit', '~> 16.0'
   s.ios.deployment_target = '11.0'
 end
 
